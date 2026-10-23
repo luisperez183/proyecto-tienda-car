@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nombre": "chevy pop",
+        "categoria": "sedan cupe s",
+        "precio": 50000,
+        "descripcin": "motor aterado y sonodo mamalon",
+        "stok":1
+    },
+    {
+        "id": 2,
+        "nombre": "Altima 2011",
+        "categoria": "sedan",
+        "precio": 60000,
+        "descripcin": "semi nuevo lo uso una maestra clima eladote",
+        "stok":1
+    },
+    {
+        "id": 3,
+        "nombre": "Chrysler spirit 98",
+        "categoria": "sedan s",
+        "precio": 80000,
+        "descripcin": "unico dueño,clima eladote",
+        "stok":1
+    }
+
+]
