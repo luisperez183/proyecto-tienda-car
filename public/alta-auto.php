@@ -1,39 +1,42 @@
-<html lang="en">
+<html lang="es">
 <head>
-    <title>AutoCom</title>
+    <meta charset="UTF-8">
+    <title>AutoCom - Nuevo Auto</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
     <header>
         <h1>Bienvenido a AutoCom</h1>
         <nav>
-            <a href="index.php">Bienvenido</a>
-            <a href="autos.php">Catalogo de autos</a>
-            <a href="contacto.php">Contactos</a>
+            <ul>
+                <li><a href="index.php">Bienvenido</a></li>
+                <li><a href="autos.php">Catalogo de autos</a></li>
+                <li><a href="contacto.php">Contactos</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h2>poner a la venta un auto nuevo </h2>
-            <form>
-                <lebel>Nombre del producto</lebel>
+            <h2>Poner a la venta un auto nuevo</h2>
+            <form class="ficha">
+                <label for="nombre">Nombre del producto</label>
                 <input type="text" name="nombre" id="nombre" required>
                 <br>
-                <lebel>Categoria</lebel>
-                <input type="text" name="nombre" id="categoria" required>
+                <label for="categoria">Categoria</label>
+                <input type="text" name="categoria" id="categoria" required>
                 <br>
-                <lebel>Precio</lebel>
+                <label for="precio">Precio</label>
                 <input type="number" name="precio" id="precio" step="0.01" min="0">
                 <br>
-                <lebel>Stock</lebel>
+                <label for="stock">Stock</label>
                 <input type="text" name="stock" id="stock" min="0">
-
-                <button type="submit">Agregar producto</button>
+                <br>
+                <button type="submit" class="boton">Agregar producto</button>
             </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 AutoCom. los derechos reservados</p>
+        <p>&copy; 2026 AutoCom. Todos los derechos reservados</p>
     </footer>
-
 </body>
 </html>

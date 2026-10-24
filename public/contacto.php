@@ -1,25 +1,28 @@
-<html lang="en">
+<html lang="es">
 <head>
-    <title>AutoCom</title>
+    <meta charset="UTF-8">
+    <title>AutoCom - Contacto</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
     <header>
         <h1>contactanos</h1>
         <nav>
-            <a href="index.php">Bienvenido</a>
-            <a href="autos.php">Catalogo de autos</a>
-            <a href="contacto.php">Contactos</a>
+            <ul>
+                <li><a href="index.php">Bienvenido</a></li>
+                <li><a href="autos.php">Catalogo de autos</a></li>
+                <li><a href="contacto.php">Contactos</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h2>comunicate con nosotros</h2>
-            <p>llama al: 443331919</p>
+            <h2>Comunicate con nosotros</h2>
+            <p>Llama al: 443331919</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 AutoCom. los derechos reservados</p>
+        <p>&copy; 2026 AutoCom. Todos los derechos reservados</p>
     </footer>
-
 </body>
 </html>
